@@ -10,7 +10,7 @@ class AboutMe extends Component {
         };
     }
     componentDidMount() {
-        fetch(`${BASE_URL}/v1/peoples/1`)
+        fetch(`${BASE_URL}/v1/peoples/${Math.floor(Math.random() * (10 - 1))}`)
             .then(response => response.json())
             .then(data => {
                 console.log(data);

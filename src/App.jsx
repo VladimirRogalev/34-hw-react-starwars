@@ -8,7 +8,7 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            currentPage: 'AboutMe'
+            currentPage: 'Home'
         }
     }
 
@@ -21,10 +21,10 @@ class App extends Component {
 
     render() {
         return (<div>
-                <Header changePage = {this.changePage}></Header>
-                <Switcher currentPage={this.state.currentPage}></Switcher>
-                <Footer></Footer>
-            </div>);
+            <Header changePage={this.changePage}></Header>
+            <Switcher currentPage={this.state.currentPage}></Switcher>
+            <Footer></Footer>
+        </div>);
     }
 }
 
