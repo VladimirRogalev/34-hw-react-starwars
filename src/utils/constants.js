@@ -1,15 +1,14 @@
-export const IMAGES = {
-    friend1: '../Images/friend1.jpg',
-    friend2: '../Images/friend2.jpg',
-    friend3: '../Images/friend3.jpg',
-    friend4: '../Images/friend4.jpg',
-    friend5: '../Images/friend5.jpg',
-    friend6: '../Images/friend6.jpg',
-    friend7: '../Images/friend7.jpg',
-    friend8: '../Images/friend8.jpg',
-    friend9: '../Images/friend9.jpg'
-
-}
+import friend1 from "../Images/friend1.jpg"
+import friend2 from "../Images/friend2.jpg"
+import friend3 from "../Images/friend3.jpg"
+import friend4 from "../Images/friend4.jpg"
+import friend5 from "../Images/friend5.jpg"
+import friend6 from "../Images/friend6.jpg"
+import friend7 from "../Images/friend7.jpg"
+import friend8 from "../Images/friend8.jpg"
+import friend9 from "../Images/friend9.jpg"
 
 export const BASE_URL = "https://sw-info-api.herokuapp.com";
+export const navItems = ['Home', 'About Me', 'StarWars', 'Contact'];
 
+export const friends = [friend9, friend8, friend7, friend6, friend5, friend4, friend3, friend2, friend1]
