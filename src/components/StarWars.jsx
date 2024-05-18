@@ -1,13 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class StarWars extends Component {
-    render() {
-        return (
-            <div>
-                <h1>TEST STARWARS</h1>
-            </div>
-        );
-    }
-}
+const StarWars = () => {
+    return (<div>
+            <h1>TEST STARWARS</h1>
+        </div>);
+};
 
 export default StarWars;
