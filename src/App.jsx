@@ -3,12 +3,13 @@ import "./App.css"
 import Header from "./components/Header.jsx";
 import Switcher from "./components/Switcher.jsx";
 import Footer from "./components/Footer.jsx";
+import {navItems} from "./utils/constants.js";
 
 class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            currentPage: 'Home'
+            currentPage: navItems[0]
         }
     }
 
